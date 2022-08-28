@@ -1,0 +1,14 @@
+google\cloud\service\ValuesCreator.class
+google\cloud\pages\HomePage.class
+google\cloud\tests\GoogleCloudSearchTest.class
+google\cloud\pages\BasePage.class
+google\cloud\utils\TestListener.class
+google\cloud\model\EmailService.class
+google\cloud\pages\CalculatorPage.class
+google\cloud\model\CalculatorValues.class
+google\cloud\pages\MailPage.class
+google\cloud\tests\SendEstimateByMailTest.class
+google\cloud\service\TestDataReader.class
+google\cloud\tests\BaseTest.class
+google\cloud\utils\Helper.class
+google\cloud\utils\ProjectDriverManager.class

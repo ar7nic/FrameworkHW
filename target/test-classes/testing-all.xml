@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" >
+    <test  name="All tests"   >
+        <classes>
+<!--            <class name="google.cloud.tests.BaseTest"/>-->
+            <class name="google.cloud.tests.GoogleCloudSearchTest"/>
+            <class name="google.cloud.tests.SendEstimateByMailTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+<!--<suiteXmlFiles>-->
+<!--<suiteXmlFile>Initialize.xml</suiteXmlFile>-->
+<!--<suiteXmlFile>${smokeORregression}</suiteXmlFile>-->
+<!--<suiteXmlFile>Conclude.xml</suiteXmlFile>-->
+<!--</suiteXmlFiles>-->

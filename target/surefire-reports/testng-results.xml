@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-28T16:27:36Z" name="Surefire suite" finished-at="2022-08-28T16:28:33Z" duration-ms="56550">
+    <groups>
+    </groups>
+    <test started-at="2022-08-28T16:27:36Z" name="Surefire test" finished-at="2022-08-28T16:28:33Z" duration-ms="56550">
+      <class name="google.cloud.tests.SendEstimateByMailTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:google.cloud.tests.SendEstimateByMailTest@35e2d654]" started-at="2022-08-28T16:27:58Z" name="setUp" finished-at="2022-08-28T16:28:06Z" duration-ms="8016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="estimateOnSiteIsEqualInEmail()[pri:0, instance:google.cloud.tests.SendEstimateByMailTest@35e2d654]" started-at="2022-08-28T16:28:06Z" name="estimateOnSiteIsEqualInEmail" finished-at="2022-08-28T16:28:32Z" duration-ms="25913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estimateOnSiteIsEqualInEmail -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:google.cloud.tests.SendEstimateByMailTest@35e2d654]" started-at="2022-08-28T16:28:32Z" name="stopBrowser" finished-at="2022-08-28T16:28:33Z" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- google.cloud.tests.SendEstimateByMailTest -->
+      <class name="google.cloud.tests.GoogleCloudSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:google.cloud.tests.GoogleCloudSearchTest@747ddf94]" started-at="2022-08-28T16:27:36Z" name="setUp" finished-at="2022-08-28T16:27:48Z" duration-ms="11626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFindKeywordOnSite()[pri:0, instance:google.cloud.tests.GoogleCloudSearchTest@747ddf94]" started-at="2022-08-28T16:27:48Z" name="canFindKeywordOnSite" finished-at="2022-08-28T16:27:58Z" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFindKeywordOnSite -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:google.cloud.tests.GoogleCloudSearchTest@747ddf94]" started-at="2022-08-28T16:27:58Z" name="stopBrowser" finished-at="2022-08-28T16:27:58Z" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- google.cloud.tests.GoogleCloudSearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
