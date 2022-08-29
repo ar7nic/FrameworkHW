@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="58.179" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="google.cloud.tests.SendEstimateByMailTest" time="34.632" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\qa\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="C:\web\JAVA\LABA\FrameworkHW\target\test-classes;C:\web\JAVA\LABA\FrameworkHW\target\classes;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\qa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\qa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\qa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\qa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\qa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\qa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\qa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\qa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\qa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\qa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\qa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\qa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\qa\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\qa\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\qa\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\qa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\qa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\qa\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\qa\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\qa\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\qa\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;"/>
@@ -19,8 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\tools\Java\jdk-11.0.16\bin"/>
-    <property name="sun.java.command" value="C:\Users\qa\AppData\Local\Temp\surefire9522829922374258891\surefirebooter5023697739930509332.jar C:\Users\qa\AppData\Local\Temp\surefire9522829922374258891 2022-08-28T19-27-33_402-jvmRun1 surefire5390685815978760661tmp surefire_08821977974510796575tmp"/>
+    <property name="sun.java.command" value="C:\Users\qa\AppData\Local\Temp\surefire16872725255480753464\surefirebooter12970955779389025739.jar C:\Users\qa\AppData\Local\Temp\surefire16872725255480753464 2022-08-29T15-52-32_386-jvmRun1 surefire11932907997373164380tmp surefire_017706408746286231724tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="google/cloud/tests/SendEstimateByMailTest"/>
     <property name="surefire.test.class.path" value="C:\web\JAVA\LABA\FrameworkHW\target\test-classes;C:\web\JAVA\LABA\FrameworkHW\target\classes;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\qa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\qa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\qa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\qa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\qa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\qa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\qa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\qa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\qa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\qa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\qa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\qa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\qa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\qa\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\qa\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\qa\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\qa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\qa\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\qa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\qa\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\qa\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\qa\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\qa\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\qa\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\qa"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\qa\AppData\Local\Temp\surefire9522829922374258891\surefirebooter5023697739930509332.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\qa\AppData\Local\Temp\surefire16872725255480753464\surefirebooter12970955779389025739.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
@@ -44,7 +44,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="C:\Users\qa\.m2\repository"/>
@@ -53,6 +53,7 @@
     <property name="java.version" value="11.0.16"/>
     <property name="user.dir" value="C:\web\JAVA\LABA\FrameworkHW"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\qa\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
@@ -64,33 +65,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="canFindKeywordOnSite" classname="google.cloud.tests.GoogleCloudSearchTest" time="9.999">
+  <testcase name="estimateOnSiteIsEqualInEmail" classname="google.cloud.tests.SendEstimateByMailTest" time="20.713">
+    <system-out><![CDATA[firefox
+2022-08-29 15:52:54,903 INFO  [main] google.cloud.pages.CalculatorPage.countingEstimateCost(CalculatorPage.java:124) Google Cloud Pricing Calculator Page loaded.
+2022-08-29 15:53:01,895 INFO  [main] google.cloud.pages.CalculatorPage.countingEstimateCost(CalculatorPage.java:160) The Estimated Monthly Cost has calculated: 5,411.26
+2022-08-29 15:53:02,226 INFO  [main] google.cloud.pages.CalculatorPage.createNewTabAndSwitchToMailPage(CalculatorPage.java:186) The free email service page has downloaded.
+2022-08-29 15:53:04,806 INFO  [main] google.cloud.pages.MailPage.createRandomEmail(MailPage.java:40) Random mail [febriheihatte-3063@yopmail.com] created
+2022-08-29 15:53:05,912 INFO  [main] google.cloud.pages.CalculatorPage.sendEstimatesByMail(CalculatorPage.java:175) The estimated cost has been sent to email.
+2022-08-29 15:53:08,464 INFO  [main] google.cloud.pages.MailPage.oneMailInbox(MailPage.java:55) The letter has been arrived.
+2022-08-29 15:53:08,485 INFO  [main] google.cloud.pages.MailPage.getEstimatedCostFromMail(MailPage.java:73) The letter with estimates has been checked.
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 36489
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-авг. 28, 2022 7:27:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1661777556272	geckodriver	INFO	Listening on 127.0.0.1:45903
+1661777556504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\qa\\AppData\\Local\\Temp\\rust_mozprofilevkz1fj"
+JavaScript error: msqckzni41c.cfg, line 2: ReferenceError: Components is not defined
+1661777557014	Marionette	INFO	Marionette enabled
+1661777557020	Marionette	INFO	Listening on port 63416
+Read port: 63416
+1661777557153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\qa\\AppData\\Local\\Temp\\rust_mozprofilevkz1fj\\search.json.mozlz4", (void 0)))
+авг. 29, 2022 3:52:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="estimateOnSiteIsEqualInEmail" classname="google.cloud.tests.SendEstimateByMailTest" time="25.802">
-    <system-out><![CDATA[2022-08-28 19:28:14,667 INFO  [main] google.cloud.pages.CalculatorPage.countingEstimateCost(CalculatorPage.java:123) Google Cloud Pricing Calculator Page loaded.
-2022-08-28 19:28:25,071 INFO  [main] google.cloud.pages.CalculatorPage.countingEstimateCost(CalculatorPage.java:159) The Estimated Monthly Cost has calculated: 5,411.26
-2022-08-28 19:28:25,254 INFO  [main] google.cloud.pages.CalculatorPage.createNewTabAndSwitchToMailPage(CalculatorPage.java:185) The free email service page has downloaded.
-2022-08-28 19:28:29,085 INFO  [main] google.cloud.pages.MailPage.createRandomEmail(MailPage.java:39) Random mail [coucroibrauzouga-8103@yopmail.com] created
-2022-08-28 19:28:30,330 INFO  [main] google.cloud.pages.CalculatorPage.sendEstimatesByMail(CalculatorPage.java:174) The estimated cost has been sent to email.
-2022-08-28 19:28:32,472 INFO  [main] google.cloud.pages.MailPage.oneMailInbox(MailPage.java:54) The letter has been arrived.
-2022-08-28 19:28:32,530 INFO  [main] google.cloud.pages.MailPage.getEstimatedCostFromMail(MailPage.java:72) The letter with estimates has been checked.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 4004
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-авг. 28, 2022 7:27:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v6bd99c7d8fa6220aea6020b29137b212e2eacdba13242535487f52ab3557b0cb/cloud/js/devsite_app_module__sv.js, line 169: SecurityError: The operation is insecure.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/932hlcctLOJRtLoo5sJe2QKRhL1SnC_Hox4lZlMNfoI.js line 2 > eval line 7365 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1661777586144	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1661777586430	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/932hlcctLOJRtLoo5sJe2QKRhL1SnC_Hox4lZlMNfoI.js line 2 > eval line 2574 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/932hlcctLOJRtLoo5sJe2QKRhL1SnC_Hox4lZlMNfoI.js line 2 > eval line 900 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 ]]></system-err>
   </testcase>
 </testsuite>

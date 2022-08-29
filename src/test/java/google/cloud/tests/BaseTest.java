@@ -28,11 +28,11 @@ public class BaseTest {
     }
 
 
-    @AfterMethod(alwaysRun = true)
-    public void stopBrowser()
-    {
-        ProjectDriverManager.closeDriver();
-    }
+//    @AfterMethod(alwaysRun = true)
+//    public void stopBrowser()
+//    {
+//        ProjectDriverManager.closeDriver();
+//    }
 
     HomePage getHomePage() {
         return new HomePage(driver);

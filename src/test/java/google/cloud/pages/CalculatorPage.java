@@ -3,10 +3,8 @@ package google.cloud.pages;
 import google.cloud.utils.Helper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.ArrayList;
 
@@ -111,6 +109,7 @@ public class CalculatorPage extends BasePage{
 
     @FindBy(xpath = "//b[contains(text(),'Total Estimated Cost')]")
     private WebElement estimatedCost;
+
 
 
 public String getGoogleCloudCalculatorPageHeader() {

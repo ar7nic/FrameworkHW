@@ -34,6 +34,7 @@ public class MailPage extends BasePage{
     private WebElement mailFromGoogle;
 
     public String createRandomEmail() {
+        waitElementIsClickable(DEFAULT_TIMEOUT_SEC,emailGenerator);
         emailGenerator.click();
         waitVisibilityOfElement(DEFAULT_TIMEOUT_SEC,email);
         logger.info("Random mail [" + email.getText() + "] created");

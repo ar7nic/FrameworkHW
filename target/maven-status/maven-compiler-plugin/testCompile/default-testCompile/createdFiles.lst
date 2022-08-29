@@ -1,5 +1,6 @@
 google\cloud\service\ValuesCreator.class
 google\cloud\pages\HomePage.class
+google\cloud\utils\OptionsManager.class
 google\cloud\tests\GoogleCloudSearchTest.class
 google\cloud\pages\BasePage.class
 google\cloud\utils\TestListener.class
