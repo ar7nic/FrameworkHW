@@ -16,7 +16,7 @@ public class OptionsManager {
 
     public static FirefoxOptions getFirefoxOptions() {
         FirefoxOptions firefoxOptions = new FirefoxOptions();
-        FirefoxProfile profile = new FirefoxProfile(); //Во время инициализации FirefoxDriver всегда происходит создание нового профиля браузера, предназначенного для тестирования
+        FirefoxProfile profile = new FirefoxProfile();
         profile.setAcceptUntrustedCertificates(true);
         profile.setAssumeUntrustedCertificateIssuer(false);
         profile.setPreference("geo.enabled", true);
